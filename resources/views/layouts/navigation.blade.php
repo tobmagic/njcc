@@ -113,6 +113,7 @@
                 <a href="{{ url('/') }}"        class="nav-link {{ request()->is('/')          ? 'active' : '' }}">Home</a>
                 <a href="{{ url('/about-us') }}" class="nav-link {{ request()->is('about-us')   ? 'active' : '' }}">About Us</a>
                 <a href="{{ url('/services') }}" class="nav-link {{ request()->is('services')   ? 'active' : '' }}">Services</a>
+                <a href="{{ url('/events') }}"   class="nav-link {{ request()->is('events*')    ? 'active' : '' }}">Events</a>
                 <a href="{{ url('/resources') }}" class="nav-link {{ request()->is('resources*') ? 'active' : '' }}">Resources</a>
                 <a href="{{ url('/contact') }}"
                    class="text-xs font-semibold tracking-[.1em] uppercase px-5 py-2.5 transition-all duration-300 hover:opacity-90"
@@ -156,7 +157,7 @@
 
     {{-- Drawer links --}}
     <div class="flex-1 px-7 py-6">
-        @foreach([['/', 'Home'], ['/about-us', 'About Us'], ['/services', 'Services'], ['/resources', 'Resources'], ['/contact', 'Contact']] as [$path, $label])
+        @foreach([['/', 'Home'], ['/about-us', 'About Us'], ['/services', 'Services'], ['/events', 'Events'], ['/resources', 'Resources'], ['/contact', 'Contact']] as [$path, $label])
         <a href="{{ url($path) }}"
            class="drawer-link {{ request()->is(ltrim($path, '/') ?: '/') ? 'active' : '' }}">
             {{ $label }}
