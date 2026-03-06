@@ -107,9 +107,7 @@
 </style>
 @endonce
 
-{{-- ══════════════════════════════════════
-     HERO BANNER
-══════════════════════════════════════ --}}
+
 <section class="about-hero font-body py-24 md:py-32">
     <div class="container mx-auto px-6 lg:px-8 max-w-4xl text-center relative z-10">
 
@@ -126,9 +124,6 @@
     </div>
 </section>
 
-{{-- ══════════════════════════════════════
-     STATS BAR
-══════════════════════════════════════ --}}
 <section class="font-body bg-white border-b" style="border-color: var(--border);">
     <div class="container mx-auto px-6 lg:px-8 max-w-5xl">
         <div class="flex flex-wrap justify-center md:justify-between py-10 gap-8 md:gap-0">
@@ -154,9 +149,6 @@
     </div>
 </section>
 
-{{-- ══════════════════════════════════════
-     INTRO PARAGRAPH
-══════════════════════════════════════ --}}
 <section class="font-body py-24 md:py-32" style="background: var(--cream);">
     <div class="container mx-auto px-6 lg:px-8 max-w-4xl text-center">
 
@@ -173,9 +165,6 @@
     </div>
 </section>
 
-{{-- ══════════════════════════════════════
-     WORD FROM THE PRESIDENT
-══════════════════════════════════════ --}}
 <section class="font-body py-24 md:py-32 bg-white">
     <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
@@ -224,9 +213,7 @@
     </div>
 </section>
 
-{{-- ══════════════════════════════════════
-     WORD FROM THE EXECUTIVE SECRETARY
-══════════════════════════════════════ --}}
+
 <section class="font-body py-24 md:py-32" style="background: var(--cream);">
     <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
@@ -261,7 +248,7 @@
             <div class="lg:col-span-4 order-1 lg:order-2 reveal">
                 <div class="portrait-frame">
                     {{-- Replace src with: {{ asset('images/secretary.jpg') }} when available --}}
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    <img src="{{ asset('images/secretary.jpeg') }}"
                          alt="Dr. Jude E. Mbonu — Executive Secretary"
                          class="w-full object-cover object-top"
                          style="aspect-ratio: 3/4; max-height: 420px;">

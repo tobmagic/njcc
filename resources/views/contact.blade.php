@@ -243,7 +243,8 @@
                         </div>
                         <div>
                             <p class="text-xs font-semibold tracking-widest uppercase mb-1" style="color: var(--sage);">Address</p>
-                            <p class="text-sm leading-relaxed" style="color: var(--muted);">Lagos, Nigeria<br><span class="italic" style="color: #aaa;">Full address coming soon</span></p>
+                            <p class="text-sm leading-relaxed" style="color: var(--muted);">Abuja, Nigeria<br><span class="italic" style="color: #aaa;">Address: Otti Carpets Plaza, 142 Ademola Adetokunbo Crescent, Wuse 2  Abuja 
+</span></p>
                         </div>
                     </div>
 
@@ -269,7 +270,7 @@
                         </div>
                         <div>
                             <p class="text-xs font-semibold tracking-widest uppercase mb-1" style="color: var(--sage);">Phone</p>
-                            <p class="text-sm" style="color: var(--muted);">+234 (0) 123 456 7890</p>
+                            <p class="text-sm" style="color: var(--muted);">±234-813-424-7347,  +234-807-543-9395</p>
                         </div>
                     </div>
                 </div>
