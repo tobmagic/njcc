@@ -215,7 +215,6 @@
     <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
 
-            {{-- Text (left) --}}
             <div class="lg:col-span-8 pt-1 order-2 lg:order-1">
                 <span class="section-eyebrow reveal">Word from the Executive Secretary</span>
                 <div class="rule-diamond reveal reveal-delay-1 mb-6"><span></span></div>
@@ -259,7 +258,49 @@
     </div>
 </section>
 
+{{-- Added: Vice President Northern Region Section --}}
 <section class="font-body py-24 md:py-32 bg-white">
+    <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
+            
+            <div class="lg:col-span-4 reveal">
+                <div class="portrait-frame">
+                    <div class="portrait-placeholder">
+                          <img src="{{ asset('images/President-N.jpeg') }}"
+                         alt="Dr. Jude E. Mbonu — Executive Secretary"
+                         class="w-full object-cover object-top"
+                         style="aspect-ratio: 3/4; max-height: 420px;">
+                    </div>
+                </div>
+                <div class="mt-5 pl-1">
+                    <p class="font-display text-lg font-semibold" style="color: var(--forest);">Alhaji Musa Ahamad Azare</p>
+                    <p class="text-xs tracking-widest uppercase mt-1" style="color: var(--sage);">Vice President Northern Region</p>
+                </div>
+            </div>
+
+            <div class="lg:col-span-8 pt-1">
+                <span class="section-eyebrow reveal">Regional Leadership</span>
+                <div class="rule-diamond reveal reveal-delay-1 mb-6"><span></span></div>
+
+                <h2 class="font-display reveal reveal-delay-1 text-4xl md:text-5xl font-bold mb-8 leading-tight" style="color: var(--forest);">
+                    Alhaji Musa Ahamad Azare
+                </h2>
+
+                <div class="reveal reveal-delay-2 space-y-5 text-base md:text-[1.05rem] leading-relaxed" style="color: var(--muted);">
+                    <p>
+                        As Vice President of the Northern Region, Alhaji Musa Ahamad Azare plays a pivotal role in decentralizing the Chamber's mission, ensuring that the vast agricultural and industrial potential of Northern Nigeria is effectively linked with Japanese technological expertise and investment.
+                    </p>
+                    <p>
+                        His leadership focuses on fostering regional economic integration and identifying specific value-chain opportunities that align with the Chamber's 2025 strategic roadmap. Through active engagement with regional stakeholders, he ensures the Chamber's revitalized vision reaches every corner of the Federation.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="font-body py-24 md:py-32 bg-white" style="background: var(--cream);">
     <div class="container mx-auto px-6 lg:px-8 max-w-5xl">
 
         <div class="text-center mb-16">

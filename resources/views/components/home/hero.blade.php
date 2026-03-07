@@ -129,7 +129,7 @@
                     <a href="{{ url('/about-us') }}" class="text-white hover:text-white/80 font-medium transition-colors {{ request()->is('about-us') ? 'underline underline-offset-4 decoration-white/70' : '' }}">About Us</a>
                     <a href="{{ url('/services') }}" class="text-white hover:text-white/80 font-medium transition-colors {{ request()->is('services') ? 'underline underline-offset-4 decoration-white/70' : '' }}">Services</a>
                     <a href="{{ url('/events') }}" class="text-white hover:text-white/80 font-medium transition-colors {{ request()->is('events*') ? 'underline underline-offset-4 decoration-white/70' : '' }}">Events</a>
-                    <a href="{{ url('/resources') }}" class="text-white hover:text-white/80 font-medium transition-colors {{ request()->is('resources*') ? 'underline underline-offset-4 decoration-white/70' : '' }}">Resources</a>
+                    <a href="{{ url('/our-resources') }}" class="text-white hover:text-white/80 font-medium transition-colors {{ request()->is('resources*') ? 'underline underline-offset-4 decoration-white/70' : '' }}">Resources</a>
                     <a href="{{ url('/contact') }}" class="text-white hover:text-white/80 font-medium transition-colors {{ request()->is('contact') ? 'underline underline-offset-4 decoration-white/70' : '' }}">Contact</a>
                 </div>
 
@@ -160,7 +160,7 @@
                     </button>
                 </div>
                 <div class="flex-1 px-8 py-10 space-y-1">
-                    @foreach ([['/', 'Home'], ['/about-us', 'About Us'], ['/services', 'Services'], ['/events', 'Events'], ['/resources', 'Resources'], ['/contact', 'Contact']] as [$path, $label])
+                    @foreach ([['/', 'Home'], ['/about-us', 'About Us'], ['/services', 'Services'], ['/events', 'Events'], ['/our-resources', 'Resources'], ['/contact', 'Contact']] as [$path, $label])
                     <a href="{{ url($path) }}"
                        class="flex items-center justify-between py-4 text-white text-base font-medium transition-colors hover:text-white/70"
                        style="border-bottom: 1px solid rgba(255,255,255,0.07);">

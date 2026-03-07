@@ -43,8 +43,8 @@ Route::get('/privacy-policy', function () {
 
 Route::get('/contact', [ContactController::class, 'show'])->name('contact');
 
-Route::get('/resources', [PostController::class, 'index'])->name('resources');
-Route::get('/resources/{post:slug}', [PostController::class, 'show'])->name('posts.show');
+Route::get('/our-resources', [PostController::class, 'index'])->name('resources');
+Route::get('/our-resources/{post:slug}', [PostController::class, 'show'])->name('posts.show');
 
 Route::get('/events', [App\Http\Controllers\EventController::class, 'index']);
 Route::get('/events/{slug}', [App\Http\Controllers\EventController::class, 'show']);

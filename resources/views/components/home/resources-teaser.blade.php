@@ -51,7 +51,7 @@
         @endif
 
         <div class="text-center mt-16 reveal reveal-delay-3">
-            <a href="{{ url('/resources') }}"
+            <a href="{{ url('/our-resources') }}"
                class="inline-flex items-center gap-3 font-semibold text-lg tracking-wide uppercase px-10 py-4 transition-all duration-300 hover:bg-opacity-90"
                style="background: var(--forest); color: #fff; border-radius: 9999px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
                 View All Resources

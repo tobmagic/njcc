@@ -171,7 +171,7 @@
 <section class="post-hero font-body pt-16 pb-20 md:pt-20 md:pb-28">
     <div class="container mx-auto px-6 lg:px-8 max-w-3xl text-center relative z-10">
 
-        <a href="{{ url('/resources') }}" class="back-link mb-8 mx-auto justify-center">
+        <a href="{{ url('/our-resources') }}" class="back-link mb-8 mx-auto justify-center">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
             </svg>
