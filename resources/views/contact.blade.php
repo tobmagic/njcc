@@ -248,7 +248,7 @@
                         <div>
                             <p class="text-xs font-semibold tracking-widest uppercase mb-1" style="color: var(--sage);">Email</p>
                             <a href="mailto:info@nijacc.org" class="text-sm transition-colors hover:underline" style="color: var(--jade);">
-                                info@nijacc.org
+                                info@nigeriajapanchamberofcommerce.org
                             </a>
                         </div>
                     </div>
