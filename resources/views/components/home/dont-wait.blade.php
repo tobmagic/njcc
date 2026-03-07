@@ -1,5 +1,5 @@
 <section class="relative py-20 md:py-28 min-h-[60vh] md:min-h-[70vh] flex items-center justify-center overflow-hidden">
-    <!-- Background Image (modern Japanese city night skyline) -->
+
     <div class="absolute inset-0 z-0">
         <img 
             src="https://images.unsplash.com/photo-1540959733332-eab4f07e6c7d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
@@ -9,11 +9,11 @@
          <img src="{{ asset('images/approach/p1.webp') }}" 
                          alt="Partnership-First Philosophy" 
                          class="w-full h-full object-cover">
-        <!-- Dark overlay for text readability (adjust opacity as needed) -->
+
         <div class="absolute inset-0 bg-black/65"></div>
     </div>
 
-    <!-- Content (centered, overlaid) -->
+  
     <div class="relative z-10 container mx-auto px-6 lg:px-8 max-w-5xl text-center">
 
         <div class="reveal">
@@ -36,7 +36,6 @@
 
     </div>
 
-    <!-- Optional subtle scroll indicator if needed -->
     <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-10 animate-bounce">
         <svg class="w-10 h-10 md:w-12 md:h-12 text-white opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />

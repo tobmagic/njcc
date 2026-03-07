@@ -26,7 +26,7 @@
     .reveal-delay-2 { transition-delay:.2s; }
     .reveal-delay-3 { transition-delay:.3s; }
 
-    /* Hero */
+  
     .contact-hero {
         background: var(--forest);
         position: relative; overflow: hidden;
@@ -37,7 +37,6 @@
         background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     }
 
-    /* Form fields */
     .field-wrap { position: relative; }
     .field-wrap label {
         display: block;
@@ -71,7 +70,7 @@
     .field-wrap textarea { resize: vertical; min-height: 150px; }
     .field-error { font-size: .78rem; color: #b91c1c; margin-top: 5px; display: block; }
 
-    /* Info item */
+
     .info-item {
         display: flex; align-items: flex-start; gap: 16px;
         padding: 20px 0;
@@ -114,9 +113,7 @@
 </style>
 @endonce
 
-{{-- ══════════════════════════════════════
-     HERO
-══════════════════════════════════════ --}}
+
 <section class="contact-hero font-body py-24 md:py-32">
     <div class="container mx-auto px-6 lg:px-8 max-w-3xl text-center relative z-10">
 
@@ -135,14 +132,11 @@
     </div>
 </section>
 
-{{-- ══════════════════════════════════════
-     FORM + DETAILS
-══════════════════════════════════════ --}}
+
 <section class="font-body py-20 md:py-28 bg-white">
     <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-20">
 
-            {{-- ── Contact Form (left) ── --}}
             <div class="lg:col-span-7 reveal">
 
                 <p class="text-xs font-semibold tracking-[.2em] uppercase mb-3" style="color: var(--sage);">Send a Message</p>
@@ -164,7 +158,7 @@
 
                         <div class="field-wrap">
                             <label for="email">Email Address</label>
-                            <input type="email" name="email" id="email" value="{{ old('email') }}" required placeholder="you@example.com">
+                            <input type="email" name="email" id="email" value="{{ old('email') }}" required placeholder="Your email address">
                             @error('email')
                                 <span class="field-error">{{ $message }}</span>
                             @enderror
@@ -187,7 +181,6 @@
                         @enderror
                     </div>
 
-                    {{-- reCAPTCHA hidden field — untouched --}}
                     <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
 
                     <div class="pt-2">
@@ -203,7 +196,7 @@
 
                 </form>
 
-                {{-- Success / Error alerts --}}
+              
                 @if(session('success'))
                     <div class="alert-success mt-8">
                         {{ session('success') }}
@@ -224,8 +217,6 @@
                 @endif
 
             </div>
-
-            {{-- ── Info + Map (right) ── --}}
             <div class="lg:col-span-5 reveal reveal-delay-2">
 
                 <p class="text-xs font-semibold tracking-[.2em] uppercase mb-3" style="color: var(--sage);">Contact Details</p>
@@ -293,7 +284,7 @@
 @endsection
 
 @push('scripts')
-    {{-- reCAPTCHA v3 — untouched --}}
+
     <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}"></script>
 
     <script>
@@ -326,7 +317,7 @@
             document.getElementById('contact-form').reset();
         @endif
 
-        // Scroll reveal
+        
         document.addEventListener('DOMContentLoaded', () => {
             const io = new IntersectionObserver(entries => {
                 entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });

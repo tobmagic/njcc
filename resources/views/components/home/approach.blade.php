@@ -18,10 +18,10 @@
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
-            <!-- Card 1: Partnership-First Philosophy -->
+
             <div class="reveal reveal-delay-1 bg-white rounded-xl border border-gray-200 overflow-hidden hover:border-[var(--sage)] hover:shadow-md transition-all duration-300">
                 <div class="h-48 bg-gray-100 flex items-center justify-center">
-                    <!-- Replace with your image -->
+          
                     <img src="{{ asset('images/approach/p1.webp') }}" 
                          alt="Partnership-First Philosophy" 
                          class="w-full h-full object-cover">
@@ -36,7 +36,7 @@
                 </div>
             </div>
 
-            <!-- Card 2: Market Intelligence-Driven -->
+      
             <div class="reveal reveal-delay-2 bg-white rounded-xl border border-gray-200 overflow-hidden hover:border-[var(--sage)] hover:shadow-md transition-all duration-300">
                 <div class="h-48 bg-gray-100 flex items-center justify-center">
                     <img src="{{ asset('images/approach/p2.webp') }}" 
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <!-- Card 3: Customized Solutions -->
+
             <div class="reveal reveal-delay-3 bg-white rounded-xl border border-gray-200 overflow-hidden hover:border-[var(--sage)] hover:shadow-md transition-all duration-300">
                 <div class="h-48 bg-gray-100 flex items-center justify-center">
                     <img src="{{ asset('images/approach/p3.webp') }}" 
@@ -69,8 +69,6 @@
                     </p>
                 </div>
             </div>
-
-            <!-- Card 4: Government Relations Integration -->
             <div class="reveal reveal-delay-4 bg-white rounded-xl border border-gray-200 overflow-hidden hover:border-[var(--sage)] hover:shadow-md transition-all duration-300">
                 <div class="h-48 bg-gray-100 flex items-center justify-center">
                     <img src="{{ asset('images/approach/p4.jpg') }}" 
@@ -87,7 +85,6 @@
                 </div>
             </div>
 
-            <!-- Card 5: Cultural Sensitivity -->
             <div class="reveal reveal-delay-5 bg-white rounded-xl border border-gray-200 overflow-hidden hover:border-[var(--sage)] hover:shadow-md transition-all duration-300">
                 <div class="h-48 bg-gray-100 flex items-center justify-center">
                     <img src="{{ asset('images/approach/p5.jpg') }}" 
@@ -104,7 +101,6 @@
                 </div>
             </div>
 
-            <!-- Card 6: Results-Oriented Focus -->
             <div class="reveal reveal-delay-6 bg-white rounded-xl border border-gray-200 overflow-hidden hover:border-[var(--sage)] hover:shadow-md transition-all duration-300">
                 <div class="h-48 bg-gray-100 flex items-center justify-center">
                     <img src="{{ asset('images/approach/p6.webp') }}" 

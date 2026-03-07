@@ -1,40 +1,39 @@
 <section class="relative flex flex-col overflow-hidden" style="height: 100svh; min-height: 640px;">
 
-    <!-- Sliding Background Images -->
+
     <div class="absolute inset-0 z-0">
         <div class="hero-slideshow absolute inset-0">
 
-            <!-- Slide 1 -->
+        
             <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out"
-                 style="background-image: url('https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+                 style="background-image: url('{{ asset('images/hero/japan3.png') }}');
                         background-size: cover; background-position: center center; background-repeat: no-repeat;">
                 <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.55) 100%);"></div>
             </div>
 
-            <!-- Slide 2 -->
+       
             <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out"
                  style="background-image: url('{{ asset('images/hero/japan1.jpg') }}');
                         background-size: cover; background-position: center center; background-repeat: no-repeat;">
                 <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.55) 100%);"></div>
             </div>
 
-            <!-- Slide 3 -->
+
             <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out"
                  style="background-image: url('{{ asset('images/hero/abuja1.jpg') }}');
                         background-size: cover; background-position: center center; background-repeat: no-repeat;">
                 <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.55) 100%);"></div>
             </div>
 
-            <!-- Slide 4 -->
+
             <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out"
                  style="background-image: url('{{ asset('images/hero/abuja2.jpg') }}');
                         background-size: cover; background-position: center center; background-repeat: no-repeat;">
                 <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.55) 100%);"></div>
             </div>
 
-            <!-- Slide 5 -->
             <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out"
-                 style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+                 style="background-image: url('{{ asset('images/hero/japan4.png') }}');
                         background-size: cover; background-position: center center; background-repeat: no-repeat;">
                 <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.55) 100%);"></div>
             </div>
@@ -43,7 +42,7 @@
     </div>
 
     <style>
-        /* ── Typewriter ── */
+
         .typewriter-cursor::after {
             content: '|';
             display: inline-block;
@@ -68,7 +67,7 @@
         }
         .hero-cta.show { opacity: 1; transform: none; }
 
-        /* ── Slide counter dots ── */
+
         .slide-dot {
             width: 6px; height: 6px;
             background: rgba(255,255,255,0.4);
@@ -81,12 +80,12 @@
             background: rgba(255,255,255,0.95);
         }
 
-        /* ── Mobile menu — deep forest green, not pure black ── */
+
         #mobile-menu {
             background: linear-gradient(160deg, #0d2e1a 0%, #1a4228 100%);
         }
 
-        /* ── CTA button sharp style ── */
+
         .hero-btn {
             display: inline-flex;
             align-items: center;
@@ -112,19 +111,19 @@
         }
     </style>
 
-    <!-- Navigation -->
+ 
     <nav class="relative z-30 bg-transparent">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16 md:h-20">
 
-                <!-- Logo -->
+               
                 <div class="flex-shrink-0">
                     <a href="{{ url('/') }}" class="flex items-center">
                         <img src="{{ asset('images/nijacc-logo.png') }}" alt="NIJACC Logo" class="h-12 w-auto object-contain">
                     </a>
                 </div>
 
-                <!-- Desktop Navigation -->
+     
                 <div class="hidden md:flex items-center space-x-10">
                     <a href="{{ url('/') }}" class="text-white hover:text-white/80 font-medium transition-colors {{ request()->is('/') ? 'underline underline-offset-4 decoration-white/70' : '' }}">Home</a>
                     <a href="{{ url('/about-us') }}" class="text-white hover:text-white/80 font-medium transition-colors {{ request()->is('about-us') ? 'underline underline-offset-4 decoration-white/70' : '' }}">About Us</a>
@@ -134,7 +133,6 @@
                     <a href="{{ url('/contact') }}" class="text-white hover:text-white/80 font-medium transition-colors {{ request()->is('contact') ? 'underline underline-offset-4 decoration-white/70' : '' }}">Contact</a>
                 </div>
 
-                <!-- Mobile Hamburger -->
                 <div class="md:hidden">
                     <button id="mobile-toggle" class="text-white p-2 rounded-md hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/30">
                         <svg class="h-7 w-7 hamburger-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -149,7 +147,6 @@
             </div>
         </div>
 
-        <!-- Mobile Menu Panel -->
         <div id="mobile-menu" class="fixed inset-y-0 left-0 w-80 transform -translate-x-full transition-transform duration-300 ease-in-out z-50 md:hidden overflow-y-auto">
             <div class="flex flex-col h-full">
                 <div class="flex items-center justify-between p-6" style="border-bottom: 1px solid rgba(255,255,255,0.1);">
@@ -217,12 +214,12 @@
 
     </div>
 
-    <!-- Slide dots -->
+
     <div id="slide-dots" class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex items-center gap-2">
-        <!-- Injected by JS -->
+   
     </div>
 
-    <!-- Scroll arrow (fades out on scroll) -->
+
     <div id="scroll-indicator" class="absolute bottom-8 right-8 z-10 transition-opacity duration-500">
         <div class="flex flex-col items-center gap-1 animate-bounce">
             <span class="text-white/40 text-xs tracking-widest uppercase" style="font-size:9px; letter-spacing:.15em;">Scroll</span>
@@ -245,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let dots       = [];
 
     if (slides.length > 0) {
-        // Build dots
+     
         slides.forEach((_, i) => {
             const d = document.createElement('button');
             d.className = 'slide-dot' + (i === 0 ? ' active' : '');

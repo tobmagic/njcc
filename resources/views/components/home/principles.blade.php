@@ -1,7 +1,5 @@
 <section class="font-body py-24 md:py-32" style="background: var(--cream);">
     <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
-
-        {{-- Header --}}
         <div class="text-center mb-16 md:mb-20">
             <p class="reveal text-xs font-semibold tracking-[0.2em] uppercase mb-6" style="color: var(--sage);">
                 Our Foundation
@@ -15,10 +13,8 @@
             </p>
         </div>
 
-        {{-- Principles grid --}}
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-px" style="background: var(--border);">
 
-            {{-- 1 — Excellence --}}
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-px" style="background: var(--border);">
             <div class="reveal reveal-delay-1 bg-white p-10 md:p-12 group transition-colors duration-300 hover:bg-[#f3f8f5]">
                 <span class="font-display text-6xl font-bold block mb-6 leading-none select-none" style="color: #e4ede8;">01</span>
                 <div class="w-8 h-px mb-6" style="background: var(--jade);"></div>
@@ -42,7 +38,6 @@
                 </p>
             </div>
 
-            {{-- 3 — Integrity --}}
             <div class="reveal reveal-delay-3 bg-white p-10 md:p-12 group transition-colors duration-300 hover:bg-[#f3f8f5]">
                 <span class="font-display text-6xl font-bold block mb-6 leading-none select-none" style="color: #e4ede8;">03</span>
                 <div class="w-8 h-px mb-6" style="background: var(--jade);"></div>
@@ -53,8 +48,6 @@
                     We operate with complete transparency, honesty, and ethical business practices, building trust that forms the foundation of lasting partnerships.
                 </p>
             </div>
-
-            {{-- 4 — Collaboration --}}
             <div class="reveal reveal-delay-4 bg-white p-10 md:p-12 group transition-colors duration-300 hover:bg-[#f3f8f5]">
                 <span class="font-display text-6xl font-bold block mb-6 leading-none select-none" style="color: #e4ede8;">04</span>
                 <div class="w-8 h-px mb-6" style="background: var(--jade);"></div>

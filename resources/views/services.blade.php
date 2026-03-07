@@ -52,7 +52,6 @@
         box-shadow: 0 8px 40px rgba(26,66,40,.07);
     }
 
-    /* Alternating layout on desktop */
     @media (min-width: 1024px) {
         .service-card { grid-template-columns: 1fr 1fr; }
         .service-card.reverse { direction: rtl; }
@@ -101,9 +100,6 @@
 </style>
 @endonce
 
-{{-- ══════════════════════════════════════
-     HERO
-══════════════════════════════════════ --}}
 <section class="services-hero font-body py-24 md:py-32">
     <div class="container mx-auto px-6 lg:px-8 max-w-3xl text-center relative z-10">
 
@@ -122,13 +118,10 @@
     </div>
 </section>
 
-{{-- ══════════════════════════════════════
-     SERVICES — alternating image/text rows
-══════════════════════════════════════ --}}
+
 <section class="font-body py-20 md:py-28" style="background: var(--cream);">
     <div class="container mx-auto px-6 lg:px-8 max-w-6xl space-y-6">
 
-        {{-- 1 — Foreign Investment --}}
         <div class="service-card reveal reveal-delay-1">
             <div class="service-card-image">
                 <img src="{{ asset('images/investor/inv.webp') }}" alt="Foreign Investment">
@@ -154,7 +147,6 @@
             </div>
         </div>
 
-        {{-- 2 — Economic Growth (reversed) --}}
         <div class="service-card reverse reveal reveal-delay-2">
             <div class="service-card-image">
                 <img src="{{ asset('images/investor/inv2.webp') }}" alt="Economic Growth and Development">
@@ -180,7 +172,7 @@
             </div>
         </div>
 
-        {{-- 3 — SMEs Support --}}
+
         <div class="service-card reveal reveal-delay-3">
             <div class="service-card-image">
                 <img src="{{ asset('images/investor/inv3.jpeg') }}" alt="SMEs Support">
@@ -206,7 +198,6 @@
             </div>
         </div>
 
-        {{-- 4 — Technology (reversed) --}}
         <div class="service-card reverse reveal reveal-delay-4">
             <div class="service-card-image">
                 <img src="{{ asset('images/investor/inv4.jpeg') }}" alt="Technology and Internet Knowledge">
@@ -235,9 +226,7 @@
     </div>
 </section>
 
-{{-- ══════════════════════════════════════
-     CTA STRIP
-══════════════════════════════════════ --}}
+
 <section class="font-body py-20 md:py-24 bg-white" style="border-top: 1px solid var(--border);">
     <div class="container mx-auto px-6 lg:px-8 max-w-4xl text-center reveal">
 

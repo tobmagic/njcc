@@ -110,9 +110,7 @@
 </style>
 @endonce
 
-{{-- ══════════════════════════════════════
-     HERO
-══════════════════════════════════════ --}}
+
 <section class="resources-hero font-body py-24 md:py-32">
     <div class="container mx-auto px-6 lg:px-8 max-w-4xl text-center relative z-10">
 
@@ -131,15 +129,12 @@
     </div>
 </section>
 
-{{-- ══════════════════════════════════════
-     POSTS
-══════════════════════════════════════ --}}
 <section class="font-body py-20 md:py-28" style="background: var(--cream);">
     <div class="container mx-auto px-6 lg:px-8 max-w-7xl">
 
         @forelse($posts as $post)
 
-            {{-- ── First post: featured wide layout ── --}}
+
             @if($loop->first)
             <div class="post-card post-card-featured reveal mb-10 md:mb-14">
 
@@ -181,14 +176,12 @@
 
             </div>
 
-            {{-- ── Remaining posts: 3-col grid ── --}}
             @if(!$loop->last)
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             @endif
 
             @elseif($loop->last && $loop->count > 1)
 
-                {{-- last card inside grid --}}
                 <div class="post-card reveal reveal-delay-{{ (($loop->index - 1) % 3) + 1 }}">
                     <div class="post-card-image">
                         @if($post->featured_image)
@@ -223,11 +216,9 @@
                     </div>
                 </div>
 
-            </div>{{-- close grid --}}
+            </div>
 
             @else
-
-                {{-- middle cards --}}
                 <div class="post-card reveal reveal-delay-{{ (($loop->index - 1) % 3) + 1 }}">
                     <div class="post-card-image">
                         @if($post->featured_image)
@@ -261,8 +252,6 @@
                         </a>
                     </div>
                 </div>
-
-                {{-- close grid after last item in loop --}}
                 @if($loop->last)</p>
                 </div>
                 @endif
@@ -270,7 +259,6 @@
             @endif
 
         @empty
-            {{-- Empty state --}}
             <div class="text-center py-24 reveal">
                 <div class="mx-auto w-16 h-16 mb-6 flex items-center justify-center" style="background:#e8f2ec;">
                     <svg class="w-8 h-8" fill="none" stroke="#74a98a" stroke-width="1.5" viewBox="0 0 24 24">
@@ -282,7 +270,6 @@
             </div>
         @endforelse
 
-        {{-- ── Pagination ── --}}
         @if($posts->hasPages())
         <div class="mt-14 flex justify-center reveal">
             {{ $posts->links('pagination::tailwind') }}

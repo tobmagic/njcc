@@ -168,8 +168,6 @@
 <section class="font-body py-24 md:py-32 bg-white">
     <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
-
-            {{-- Portrait --}}
             <div class="lg:col-span-4 reveal">
                 <div class="portrait-frame">
                     <img src="{{ asset('images/president.jpg') }}"
@@ -183,7 +181,6 @@
                 </div>
             </div>
 
-            {{-- Text --}}
             <div class="lg:col-span-8 pt-1">
                 <span class="section-eyebrow reveal">Word from the President</span>
                 <div class="rule-diamond reveal reveal-delay-1 mb-6"><span></span></div>
@@ -244,10 +241,9 @@
                 </blockquote>
             </div>
 
-            {{-- Portrait (right) --}}
+
             <div class="lg:col-span-4 order-1 lg:order-2 reveal">
                 <div class="portrait-frame">
-                    {{-- Replace src with: {{ asset('images/secretary.jpg') }} when available --}}
                     <img src="{{ asset('images/secretary.jpeg') }}"
                          alt="Dr. Jude E. Mbonu — Executive Secretary"
                          class="w-full object-cover object-top"
@@ -263,9 +259,6 @@
     </div>
 </section>
 
-{{-- ══════════════════════════════════════
-     HERITAGE BLOCK
-══════════════════════════════════════ --}}
 <section class="font-body py-24 md:py-32 bg-white">
     <div class="container mx-auto px-6 lg:px-8 max-w-5xl">
 
@@ -305,14 +298,9 @@
     </div>
 </section>
 
-{{-- ══════════════════════════════════════
-     VISION & MISSION COMPONENT
-══════════════════════════════════════ --}}
+
 <x-home.vision-mission />
 
-{{-- ══════════════════════════════════════
-     LEADERSHIP OVERVIEW
-══════════════════════════════════════ --}}
 <section class="font-body py-24 md:py-32" style="background: var(--cream);">
     <div class="container mx-auto px-6 lg:px-8 max-w-5xl text-center">
 
