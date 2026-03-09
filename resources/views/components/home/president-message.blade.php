@@ -46,12 +46,12 @@
                 {{-- Photo column — clean, no background offset --}}
                 <div class="lg:col-span-4 reveal">
                     <img src="{{ asset('images/president.jpg') }}"
-                         alt="Mandeking E. Ijoma — President, Nigeria-Japan Chamber of Commerce"
+                         alt="Chf. Mandyking E. Ijoma — President, Nigeria-Japan Chamber of Commerce"
                          class="w-full object-cover object-top"
                          style="aspect-ratio: 3/4; max-height: 440px; display: block;">
                     <div class="mt-4 h-px" style="background: var(--border);"></div>
                     <p class="mt-3 text-xs tracking-[0.15em] uppercase text-center" style="color: var(--sage);">
-                        Mandeking E. Ijoma
+                        Chf. Mandyking E. Ijoma
                     </p>
                 </div>
 

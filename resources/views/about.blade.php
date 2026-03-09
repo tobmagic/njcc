@@ -176,7 +176,7 @@
                          style="aspect-ratio: 3/4; max-height: 420px;">
                 </div>
                 <div class="mt-5 pl-1">
-                    <p class="font-display text-lg font-semibold" style="color: var(--forest);">Mandeking E. Ijoma</p>
+                    <p class="font-display text-lg font-semibold" style="color: var(--forest);">Chf. Mandyking E. Ijoma</p>
                     <p class="text-xs tracking-widest uppercase mt-1" style="color: var(--sage);">President</p>
                 </div>
             </div>
@@ -186,7 +186,7 @@
                 <div class="rule-diamond reveal reveal-delay-1 mb-6"><span></span></div>
 
                 <h2 class="font-display reveal reveal-delay-1 text-4xl md:text-5xl font-bold mb-8 leading-tight" style="color: var(--forest);">
-                    Mandeking E. Ijoma
+                    Chf. Mandyking E. Ijoma
                 </h2>
 
                 <div class="reveal reveal-delay-2 space-y-5 text-base md:text-[1.05rem] leading-relaxed" style="color: var(--muted);">
