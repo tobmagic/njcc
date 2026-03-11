@@ -7,12 +7,14 @@ use Illuminate\Support\Facades\Route;
 use App\Models\Post;
 
 Route::get('/', function () {
-    $latestPosts = Post::query()
-        ->whereNotNull('published_at')
-        ->where('published_at', '<=', now())
-        ->orderBy('published_at', 'desc')
-        ->take(6)
-        ->get();
+   $latestPosts = Post::query()
+    ->whereNotNull('published_at')
+    ->where('published_at', '<=', now())
+    ->orderBy('created_at', 'desc')        
+    ->orderBy('published_at', 'desc')        
+    ->with('media')
+    ->take(6)
+    ->get();
 
     return view('welcome', compact('latestPosts'));
 })->name('home');

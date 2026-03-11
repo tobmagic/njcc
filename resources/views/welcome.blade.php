@@ -11,5 +11,5 @@
           <x-home.investor-services />
           <x-home.resources-teaser  :latest-posts="$latestPosts"/>
     <x-home.get-in-touch     /> 
-
+<x-home.latest-posts-modal :latest-posts="$latestPosts" />
 @endsection
