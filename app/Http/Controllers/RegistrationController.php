@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class RegistrationController extends Controller
 {
-    public function showForm($program = 'Japan Delegation 2025')
+    public function showForm($program = 'Nigeria Business Forum in Japan 2026')
     {
         return view('pages.register', compact('program'));
     }
