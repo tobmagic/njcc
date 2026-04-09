@@ -5,6 +5,7 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Post;
+use App\Http\Controllers\RegistrationController;
 
 Route::get('/', function () {
    $latestPosts = Post::query()
@@ -51,4 +52,10 @@ Route::get('/our-resources/{post:slug}', [PostController::class, 'show'])->name(
 Route::get('/events', [App\Http\Controllers\EventController::class, 'index']);
 Route::get('/events/{slug}', [App\Http\Controllers\EventController::class, 'show']);
 
+
+
+Route::get('/register/{program?}', [RegistrationController::class, 'showForm'])->name('register.delegate');
+Route::post('/register/submit', [RegistrationController::class, 'store'])
+    ->name('register.delegate.store')
+    ->middleware('throttle:3,1');
 require __DIR__.'/auth.php';

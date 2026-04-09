@@ -110,24 +110,19 @@
 
 <section class="about-hero font-body py-24 md:py-32">
     <div class="container mx-auto px-6 lg:px-8 max-w-4xl text-center relative z-10">
-
         <span class="section-eyebrow" style="color: var(--sage);">Established 1995</span>
-
         <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white">
             About Us
         </h1>
-
         <p class="text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-0" style="color: rgba(255,255,255,.65);">
             Nearly three decades of building enduring bridges between<br class="hidden md:block"> Nigeria and Japan — two nations, one vision.
         </p>
-
     </div>
 </section>
 
 <section class="font-body bg-white border-b" style="border-color: var(--border);">
     <div class="container mx-auto px-6 lg:px-8 max-w-5xl">
         <div class="flex flex-wrap justify-center md:justify-between py-10 gap-8 md:gap-0">
-
             <div class="stat-item reveal">
                 <p class="font-display text-4xl md:text-5xl font-bold" style="color: var(--forest);">1995</p>
                 <p class="text-xs tracking-widest uppercase mt-1" style="color: var(--muted);">Founded</p>
@@ -144,34 +139,30 @@
                 <p class="font-display text-4xl md:text-5xl font-bold" style="color: var(--forest);">51</p>
                 <p class="text-xs tracking-widest uppercase mt-1" style="color: var(--muted);">Japanese Firms in Nigeria</p>
             </div>
-
         </div>
     </div>
 </section>
 
 <section class="font-body py-24 md:py-32" style="background: var(--cream);">
     <div class="container mx-auto px-6 lg:px-8 max-w-4xl text-center">
-
         <div class="rule-diamond reveal mx-auto mb-8"><span></span></div>
-
         <h2 class="font-display reveal reveal-delay-1 text-3xl md:text-4xl lg:text-5xl font-bold mb-8 leading-snug" style="color: var(--forest);">
             Connecting Businesses.<br>Creating Opportunities.<br>Driving Growth.
         </h2>
-
         <p class="reveal reveal-delay-2 text-base md:text-lg leading-relaxed max-w-3xl mx-auto" style="color: var(--muted);">
             The Nigeria-Japan Chamber of Commerce was born from passion and vision in 1995, founded with an unwavering commitment to promote and expand trade between Nigeria and Japan. Inspired by Japan's iconic business excellence and driven by the belief that both nations could achieve remarkable prosperity through strategic partnerships, we embarked on a journey to bridge two dynamic economies across continents.
         </p>
-
     </div>
 </section>
 
+{{-- President Section --}}
 <section class="font-body py-24 md:py-32 bg-white">
     <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
             <div class="lg:col-span-4 reveal">
                 <div class="portrait-frame">
                     <img src="{{ asset('images/president.jpg') }}"
-                         alt="Mandeking E. Ijoma — President"
+                         alt="Chf. Mandyking E. Ijoma — President"
                          class="w-full object-cover object-top"
                          style="aspect-ratio: 3/4; max-height: 420px;">
                 </div>
@@ -184,62 +175,41 @@
             <div class="lg:col-span-8 pt-1">
                 <span class="section-eyebrow reveal">Word from the President</span>
                 <div class="rule-diamond reveal reveal-delay-1 mb-6"><span></span></div>
-
                 <h2 class="font-display reveal reveal-delay-1 text-4xl md:text-5xl font-bold mb-8 leading-tight" style="color: var(--forest);">
                     Chf. Mandyking E. Ijoma
                 </h2>
-
                 <div class="reveal reveal-delay-2 space-y-5 text-base md:text-[1.05rem] leading-relaxed" style="color: var(--muted);">
-                    <p>
-                        In 1995, inspired by Japan's culture of business excellence and precision, I founded the Chamber with a singular vision: to build an enduring bridge between Nigeria and Japan — two nations with complementary strengths and enormous untapped potential.
-                    </p>
-                    <p>
-                        Despite past economic challenges in Nigeria, the Chamber is revitalized, buoyed by Nigeria's $20 billion in diaspora remittances and positive endorsements from the IMF and World Bank. With renewed partnerships and 2025 initiatives including business delegations and Osaka Expo participation, the opportunity before us is historic.
-                    </p>
-                    <p>
-                        The Chamber invites all forward-thinking businesses to join this transformative moment. The window of opportunity is open — and the time to act is now.
-                    </p>
+                    <p>In 1995, inspired by Japan's culture of business excellence and precision, I founded the Chamber with a singular vision: to build an enduring bridge between Nigeria and Japan — two nations with complementary strengths and enormous untapped potential.</p>
+                    <p>Despite past economic challenges in Nigeria, the Chamber is revitalized, buoyed by Nigeria's $20 billion in diaspora remittances and positive endorsements from the IMF and World Bank. With renewed partnerships and 2025 initiatives including business delegations and Osaka Expo participation, the opportunity before us is historic.</p>
+                    <p>The Chamber invites all forward-thinking businesses to join this transformative moment. The window of opportunity is open — and the time to act is now.</p>
                 </div>
-
                 <blockquote class="pull-quote reveal reveal-delay-3 mt-10">
                     "Join us. Let's build the future of Nigeria-Japan trade — together."
                 </blockquote>
             </div>
-
         </div>
     </div>
 </section>
 
-
+{{-- Executive Secretary Section --}}
 <section class="font-body py-24 md:py-32" style="background: var(--cream);">
     <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
-
             <div class="lg:col-span-8 pt-1 order-2 lg:order-1">
                 <span class="section-eyebrow reveal">Word from the Executive Secretary</span>
                 <div class="rule-diamond reveal reveal-delay-1 mb-6"><span></span></div>
-
                 <h2 class="font-display reveal reveal-delay-1 text-4xl md:text-5xl font-bold mb-8 leading-tight" style="color: var(--forest);">
                     Dr. Jude E. Mbonu
                 </h2>
-
                 <div class="reveal reveal-delay-2 space-y-5 text-base md:text-[1.05rem] leading-relaxed" style="color: var(--muted);">
-                    <p>
-                        The Nigeria-Japan Chamber of Commerce, established in 1995, welcomes members, partners, and the broader business community to its revitalised platform. After a period of reduced activity resulting from Nigeria's economic headwinds since 2015, the Chamber is reinvigorating itself under the Tinubu administration's reforms — a shift that has already yielded a historic $20 billion in diaspora remittances and renewed confidence from the IMF and World Bank.
-                    </p>
-                    <p>
-                        Bilateral trade between Nigeria and Japan stands at $10 billion today, with 51 Japanese firms operating in Nigeria. Our ambition is to grow that figure substantially — and to establish a meaningful Nigerian business presence in Japan in return.
-                    </p>
-                    <p>
-                        Drawing on my prior experience at the Japanese Embassy, I am committed to enhancing bilateral trade at every level, keeping our members informed, and ensuring the Chamber operates with the precision and professionalism our mandate demands.
-                    </p>
+                    <p>The Nigeria-Japan Chamber of Commerce, established in 1995, welcomes members, partners, and the broader business community to its revitalised platform. After a period of reduced activity resulting from Nigeria's economic headwinds since 2015, the Chamber is reinvigorating itself under the Tinubu administration's reforms — a shift that has already yielded a historic $20 billion in diaspora remittances and renewed confidence from the IMF and World Bank.</p>
+                    <p>Bilateral trade between Nigeria and Japan stands at $10 billion today, with 51 Japanese firms operating in Nigeria. Our ambition is to grow that figure substantially — and to establish a meaningful Nigerian business presence in Japan in return.</p>
+                    <p>Drawing on my prior experience at the Japanese Embassy, I am committed to enhancing bilateral trade at every level, keeping our members informed, and ensuring the Chamber operates with the precision and professionalism our mandate demands.</p>
                 </div>
-
                 <blockquote class="pull-quote reveal reveal-delay-3 mt-10">
                     "The foundations are in place. The partnerships are ready. The next chapter begins now."
                 </blockquote>
             </div>
-
 
             <div class="lg:col-span-4 order-1 lg:order-2 reveal">
                 <div class="portrait-frame">
@@ -253,24 +223,20 @@
                     <p class="text-xs tracking-widest uppercase mt-1" style="color: var(--sage);">Executive Secretary</p>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
 
-{{-- Added: Vice President Northern Region Section --}}
+{{-- Vice President Northern Region Section --}}
 <section class="font-body py-24 md:py-32 bg-white">
     <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
-            
             <div class="lg:col-span-4 reveal">
                 <div class="portrait-frame">
-                    <div class="portrait-placeholder">
-                          <img src="{{ asset('images/President-N.jpeg') }}"
-                         alt="Dr. Jude E. Mbonu — Executive Secretary"
+                    <img src="{{ asset('images/President-N.jpeg') }}"
+                         alt="Alhaji Musa Ahamad Azare — Vice President Northern Region"
                          class="w-full object-cover object-top"
                          style="aspect-ratio: 3/4; max-height: 420px;">
-                    </div>
                 </div>
                 <div class="mt-5 pl-1">
                     <p class="font-display text-lg font-semibold" style="color: var(--forest);">Alhaji Musa Ahamad Azare</p>
@@ -281,28 +247,84 @@
             <div class="lg:col-span-8 pt-1">
                 <span class="section-eyebrow reveal">Regional Leadership</span>
                 <div class="rule-diamond reveal reveal-delay-1 mb-6"><span></span></div>
-
                 <h2 class="font-display reveal reveal-delay-1 text-4xl md:text-5xl font-bold mb-8 leading-tight" style="color: var(--forest);">
                     Alhaji Musa Ahamad Azare
                 </h2>
-
                 <div class="reveal reveal-delay-2 space-y-5 text-base md:text-[1.05rem] leading-relaxed" style="color: var(--muted);">
-                    <p>
-                        As Vice President of the Northern Region, Alhaji Musa Ahamad Azare plays a pivotal role in decentralizing the Chamber's mission, ensuring that the vast agricultural and industrial potential of Northern Nigeria is effectively linked with Japanese technological expertise and investment.
-                    </p>
-                    <p>
-                        His leadership focuses on fostering regional economic integration and identifying specific value-chain opportunities that align with the Chamber's 2025 strategic roadmap. Through active engagement with regional stakeholders, he ensures the Chamber's revitalized vision reaches every corner of the Federation.
-                    </p>
+                    <p>As Vice President of the Northern Region, Alhaji Musa Ahamad Azare plays a pivotal role in decentralizing the Chamber's mission, ensuring that the vast agricultural and industrial potential of Northern Nigeria is effectively linked with Japanese technological expertise and investment.</p>
+                    <p>His leadership focuses on fostering regional economic integration and identifying specific value-chain opportunities that align with the Chamber's 2025 strategic roadmap. Through active engagement with regional stakeholders, he ensures the Chamber's revitalized vision reaches every corner of the Federation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- Vice President South West Region Section --}}
+<section class="font-body py-24 md:py-32" style="background: var(--cream);">
+    <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
+            <div class="lg:col-span-8 pt-1 order-2 lg:order-1">
+                <span class="section-eyebrow reveal">Regional Leadership</span>
+                <div class="rule-diamond reveal reveal-delay-1 mb-6"><span></span></div>
+                <h2 class="font-display reveal reveal-delay-1 text-4xl md:text-5xl font-bold mb-8 leading-tight" style="color: var(--forest);">
+                    Prince Adebola Ademuyiwa Haastrup
+                </h2>
+                <div class="reveal reveal-delay-2 space-y-5 text-base md:text-[1.05rem] leading-relaxed" style="color: var(--muted);">
+                    <p>Representing the South West Region, Prince Adebola Ademuyiwa Haastrup brings a strategic focus to the Chamber's operations within Nigeria's primary commercial and industrial hub. His mandate is to bridge the gap between South West business leaders and Japanese innovators, particularly in the manufacturing and maritime sectors.</p>
+                    <p>Through dedicated advocacy and regional networking, Prince Haastrup ensures that the South West remains a cornerstone of the Nigeria-Japan bilateral relationship, facilitating growth and fostering sustainable economic partnerships for a prosperous future.</p>
                 </div>
             </div>
 
+            <div class="lg:col-span-4 order-1 lg:order-2 reveal">
+                <div class="portrait-frame">
+                    <img src="{{ asset('images/President-SW.jpeg') }}"
+                         alt="Prince Adebola Ademuyiwa Haastrup — Vice President South West Region"
+                         class="w-full object-cover object-top"
+                         style="aspect-ratio: 3/4; max-height: 420px;">
+                </div>
+                <div class="mt-5 pl-1">
+                    <p class="font-display text-lg font-semibold" style="color: var(--forest);">Prince Adebola Ademuyiwa Haastrup</p>
+                    <p class="text-xs tracking-widest uppercase mt-1" style="color: var(--sage);">Vice President South West Region</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- Program Coordinator Section --}}
+<section class="font-body py-24 md:py-32 bg-white">
+    <div class="container mx-auto px-6 lg:px-8 max-w-6xl">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
+            <div class="lg:col-span-4 reveal">
+                <div class="portrait-frame">
+                    <img src="{{ asset('images/coordinator.jpg') }}"
+                         alt="Prof. Yakubu Ochefu — Program Coordinator"
+                         class="w-full object-cover object-top"
+                         style="aspect-ratio: 3/4; max-height: 420px;">
+                </div>
+                <div class="mt-5 pl-1">
+                    <p class="font-display text-lg font-semibold" style="color: var(--forest);">Prof. Yakubu Ochefu</p>
+                    <p class="text-xs tracking-widest uppercase mt-1" style="color: var(--sage);">Program Coordinator</p>
+                </div>
+            </div>
+
+            <div class="lg:col-span-8 pt-1">
+                <span class="section-eyebrow reveal">Program Coordination</span>
+                <div class="rule-diamond reveal reveal-delay-1 mb-6"><span></span></div>
+                <h2 class="font-display reveal reveal-delay-1 text-4xl md:text-5xl font-bold mb-8 leading-tight" style="color: var(--forest);">
+                    Prof. Yakubu Ochefu
+                </h2>
+                <div class="reveal reveal-delay-2 space-y-5 text-base md:text-[1.05rem] leading-relaxed" style="color: var(--muted);">
+                    <p>As the Program Coordinator for NIJACC, Prof. Yakubu Ochefu provides the academic and strategic rigor necessary to drive our bilateral trade objectives. His leadership ensures that the Chamber's initiatives are not only operationally sound but also aligned with high-level economic research and development goals.</p>
+                    <p>His extensive experience in organizational management and policy framework development is instrumental in guiding the Chamber through its revitalized growth phase, fostering an environment where innovation and cross-continental trade can thrive.</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
 <section class="font-body py-24 md:py-32 bg-white" style="background: var(--cream);">
     <div class="container mx-auto px-6 lg:px-8 max-w-5xl">
-
         <div class="text-center mb-16">
             <span class="section-eyebrow reveal">Our Heritage</span>
             <div class="rule-diamond reveal reveal-delay-1 mx-auto mb-8"><span></span></div>
@@ -312,54 +334,37 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-px reveal reveal-delay-2" style="background: var(--border);">
-
             <div class="bg-white px-8 py-10">
                 <p class="font-display text-3xl font-bold mb-3" style="color: var(--forest);">Founded</p>
-                <p class="text-sm leading-relaxed" style="color: var(--muted);">
-                    Established in 1995 with a mission to promote and expand trade between Nigeria and Japan, making us one of Nigeria's oldest bilateral chambers.
-                </p>
+                <p class="text-sm leading-relaxed" style="color: var(--muted);">Established in 1995 with a mission to promote and expand trade between Nigeria and Japan, making us one of Nigeria's oldest bilateral chambers.</p>
             </div>
-
             <div class="bg-white px-8 py-10" style="border-left: 1px solid var(--border);">
                 <p class="font-display text-3xl font-bold mb-3" style="color: var(--forest);">Weathered</p>
-                <p class="text-sm leading-relaxed" style="color: var(--muted);">
-                    Through Nigeria's economic cycles and global market shifts, we maintained the Chamber's structure and institutional knowledge intact.
-                </p>
+                <p class="text-sm leading-relaxed" style="color: var(--muted);">Through Nigeria's economic cycles and global market shifts, we maintained the Chamber's structure and institutional knowledge intact.</p>
             </div>
-
             <div class="bg-white px-8 py-10" style="border-left: 1px solid var(--border);">
                 <p class="font-display text-3xl font-bold mb-3" style="color: var(--forest);">Revitalised</p>
-                <p class="text-sm leading-relaxed" style="color: var(--muted);">
-                    Emerging stronger with renewed leadership, 2025 initiatives, and a clear vision to capitalise on the extraordinary bilateral opportunity now before both nations.
-                </p>
+                <p class="text-sm leading-relaxed" style="color: var(--muted);">Emerging stronger with renewed leadership, 2025 initiatives, and a clear vision to capitalise on the extraordinary bilateral opportunity now before both nations.</p>
             </div>
-
         </div>
-
     </div>
 </section>
-
 
 <x-home.vision-mission />
 
 <section class="font-body py-24 md:py-32" style="background: var(--cream);">
     <div class="container mx-auto px-6 lg:px-8 max-w-5xl text-center">
-
         <span class="section-eyebrow reveal">Our Leadership</span>
         <div class="rule-diamond reveal reveal-delay-1 mx-auto mb-8"><span></span></div>
-
         <h2 class="font-display reveal reveal-delay-1 text-4xl md:text-5xl font-bold mb-8 leading-tight" style="color: var(--forest);">
             Guiding Nigeria-Japan Trade<br>into the Future
         </h2>
-
         <p class="reveal reveal-delay-2 text-base md:text-lg leading-relaxed mx-auto max-w-3xl mb-6" style="color: var(--muted);">
             Our leadership team combines decades of international business experience with deep cultural understanding of both Nigerian and Japanese markets — bringing both historical perspective and forward-thinking innovation to every initiative.
         </p>
-
         <p class="reveal reveal-delay-3 text-base md:text-lg leading-relaxed mx-auto max-w-3xl mb-12" style="color: var(--muted);">
             Our commitment to member success, combined with a strategic approach to bilateral trade development, positions us uniquely to guide businesses through the complexities of international commerce while maximising opportunities in both markets.
         </p>
-
         <div class="reveal reveal-delay-3">
             <a href="{{ url('/contact') }}"
                class="inline-flex items-center gap-3 font-semibold text-sm tracking-[.08em] uppercase px-10 py-4 transition-all duration-300 hover:opacity-90"
@@ -370,7 +375,6 @@
                 </svg>
             </a>
         </div>
-
     </div>
 </section>
 
